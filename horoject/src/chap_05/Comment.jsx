@@ -1,3 +1,5 @@
+// 컴포넌트, props 내용
+
 import React from 'react';
 
 const styles = {
