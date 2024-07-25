@@ -7,6 +7,7 @@ import Library from './chap_03/Library';
 import Clock from './chap_04/Clock';
 import CommentList from './chap_05/CommentList';
 import NotificationList from './chap_06/NotificationList';
+import Accommodate from './chap_07/Accommodate';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,10 +25,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // }, 1000);
 
 /* chap_06 */
+// root.render(
+//   <React.StrictMode>
+//     <NotificationList />
+//   </React.StrictMode>
+// )
+
+// chap_07
 root.render(
   <React.StrictMode>
-    <NotificationList />
-  </React.StrictMode>
+    <Accommodate />
+    <Accommodate />
+  </React.StrictMode>,
+  document.getElementById('root')
 )
 
 // If you want to start measuring performance in your app, pass a function
