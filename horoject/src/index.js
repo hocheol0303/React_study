@@ -11,6 +11,7 @@ import Accommodate from './chap_07/Accommodate';
 import ConfirmButton from './chap_08/ConfirmButton';
 import LandingPage from './chap_09/LandingPage';
 import AttendanceBook from './chap_10/AttendanceBook';
+import SignUp from './chap_11/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -57,9 +58,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   </React.StrictMode>
 // )
 
+//chap_10
+// root.render(
+//   <React.StrictMode>
+//     <AttendanceBook/>
+//   </React.StrictMode>
+// )
+
+//chap_11
 root.render(
   <React.StrictMode>
-    <AttendanceBook/>
+    <SignUp />
   </React.StrictMode>
 )
 
