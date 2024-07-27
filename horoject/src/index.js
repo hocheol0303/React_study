@@ -9,6 +9,7 @@ import CommentList from './chap_05/CommentList';
 import NotificationList from './chap_06/NotificationList';
 import Accommodate from './chap_07/Accommodate';
 import ConfirmButton from './chap_08/ConfirmButton';
+import LandingPage from './chap_09/LandingPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -42,9 +43,16 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 // chap_08
+// root.render(
+//   <React.StrictMode>
+//     <ConfirmButton />
+//   </React.StrictMode>
+// )
+
+//chap_09
 root.render(
   <React.StrictMode>
-    <ConfirmButton />
+    <LandingPage />
   </React.StrictMode>
 )
 
