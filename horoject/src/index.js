@@ -1,3 +1,4 @@
+import tmp from './tmp';
 import Calc from './chap_12/advanced_toC_toF';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -14,6 +15,7 @@ import LandingPage from './chap_09/LandingPage';
 import AttendanceBook from './chap_10/AttendanceBook';
 import SignUp from './chap_11/SignUp';
 import Calculator from './chap_12/Calculator';
+import ProfileCard from './chap_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -75,12 +77,19 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 //chap_12
+// root.render(
+//   <React.StrictMode>
+//     <Calculator children="hihi" />
+//     <tmp children='fuck' />
+//   </React.StrictMode>
+// )
+
+//chap_13
 root.render(
   <React.StrictMode>
-    <Calculator />
+    <ProfileCard />
   </React.StrictMode>
 )
-
 
 //tmp
 // root.render(

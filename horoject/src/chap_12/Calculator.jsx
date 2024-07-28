@@ -28,7 +28,7 @@ function Calculator(props){
 
     const handleCelsiusChange = (temperature) =>{
         setTemperature(temperature);
-        // 대문자 아발롬아
+        // 대문자 야발롬아
         // setScale('C');
         setScale('c');
     };
@@ -46,6 +46,7 @@ function Calculator(props){
             <TemperatureInput scale='c' temperature={celsius} onTemperatureChange={handleCelsiusChange} />
             <TemperatureInput scale='f' temperature={fahrenheit} onTemperatureChange={handleFahrenheitChange} />
             <BoilingVerdict celsius={parseFloat(celsius)} />
+            {props.children}
         </div>
     );
 }
