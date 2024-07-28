@@ -1,3 +1,4 @@
+import Calc from './chap_12/advanced_toC_toF';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -12,6 +13,7 @@ import ConfirmButton from './chap_08/ConfirmButton';
 import LandingPage from './chap_09/LandingPage';
 import AttendanceBook from './chap_10/AttendanceBook';
 import SignUp from './chap_11/SignUp';
+import Calculator from './chap_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -66,11 +68,27 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 //chap_11
+// root.render(
+//   <React.StrictMode>
+//     <SignUp />
+//   </React.StrictMode>
+// )
+
+//chap_12
 root.render(
   <React.StrictMode>
-    <SignUp />
+    <Calculator />
   </React.StrictMode>
 )
+
+
+//tmp
+// root.render(
+//   <React.StrictMode>
+//     <Calculator />
+//     <Calc />
+//   </React.StrictMode>
+// )
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
