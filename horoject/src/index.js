@@ -16,6 +16,8 @@ import AttendanceBook from './chap_10/AttendanceBook';
 import SignUp from './chap_11/SignUp';
 import Calculator from './chap_12/Calculator';
 import ProfileCard from './chap_13/ProfileCard';
+import DarkOrLight from './chap_14/DarkOrLight';
+import Blocks from './chap_15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -85,9 +87,23 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 // )
 
 //chap_13
+// root.render(
+//   <React.StrictMode>
+//     <ProfileCard />
+//   </React.StrictMode>
+// )
+
+//chap_14
+// root.render(
+//   <React.StrictMode>
+//     <DarkOrLight />
+//   </React.StrictMode>
+// )
+
+//chap_15
 root.render(
   <React.StrictMode>
-    <ProfileCard />
+    <Blocks />
   </React.StrictMode>
 )
 
